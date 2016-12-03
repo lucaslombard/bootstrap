@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	color: white;
 }
 
 body {
@@ -22,6 +21,12 @@ body {
 	background-repeat: no-repeat;
 	height: 400px;
 	padding-top: 100px;
+	color: white;
+}
+
+.espacio-titulos {
+	   padding-top: 30px;
+    padding-bottom: 70px;
 }
 
 .minav {
@@ -50,4 +55,21 @@ body {
 
 .iconservices {
 	font-size: 40px;
+}
+
+.myportfolio {
+	padding-top: 20px;
+	background-color: #f2dede;
+}
+
+.porfolio div {
+	color: #333;;
+}
+
+.portfolio p {
+	color: #333;;
+}
+
+.caja-blanca {
+	background-color: white;
 }
