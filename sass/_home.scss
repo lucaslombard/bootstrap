@@ -112,10 +112,38 @@ h1 {
 
 
 	.snippet-portfolio {
+		    margin-top: 20px;
 
-
+		.snippet-portfolio__description {
+			background-color: white;
+			padding: 10px;
+		}
 	}
 }
+
+.image-container {
+		position: relative;
+	}
+
+.image-container:hover .overlay {
+		opacity: 1;
+	}
+
+.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(254, 209, 54, 0.5);
+		color: white;
+		font-size: 90px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		opacity: 0;
+		transition: opacity 0.3s linear;
+	}
 
 .team {
 	background-color: $gray;
