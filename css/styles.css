@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Montserrat, sans-serif; }
+
+h1 {
+  font-weight: bolder; }
+
+.cover {
+  background-image: url(http://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  color: white; }
+  .cover .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px; }
+
+.navbar-inverse {
+  background-color: #222;
+  padding: 10px 0;
+  border-style: none; }
+  .navbar-inverse .navbar-brand {
+    color: #fed136; }
+
+.navbar-right {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px; }
+
+.jumbotron {
+  background-color: transparent;
+  padding-top: 250px; }
+  .jumbotron .intro-title {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px; }
+  .jumbotron .intro-text {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px; }
+
+.button-custom {
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #fec503;
+  border-color: #f6bf01; }
+
+.padding-sections {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.portfolio {
+  background-color: #eee; }
+
+.team {
+  background-color: #eee; }
+
+.sponsors .container {
+  display: flex;
+  justify-content: space-between; }
+
+/*# sourceMappingURL=styles.css.map */
